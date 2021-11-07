@@ -34,3 +34,10 @@ body {
 
     min-height: 700px;
 }
+
+.body-form {
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
