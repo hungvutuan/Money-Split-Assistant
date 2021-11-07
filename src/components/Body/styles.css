@@ -1,0 +1,8 @@
+.body-container {
+    /*background-color: lightblue;*/
+    margin: 25px 100px;
+    min-height: 400px;
+
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+}

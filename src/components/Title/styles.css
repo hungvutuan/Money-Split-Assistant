@@ -1,6 +1,36 @@
+body {
+    margin: 0;
+}
+
 .title-container {
-    background-color: orange;
-    font-family: Arial, serif;
-    font-size: 52px;
-    text-align: center;
+    position: sticky;
+
+    font-family: fantasy;
+    /*background-color: lightblue;*/
+    font-size: 18px;
+    text-align: left;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-bottom: lightgrey 1px solid;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+.right-header {
+    align-self: center;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
 }
