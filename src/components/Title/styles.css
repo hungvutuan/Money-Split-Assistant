@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    /*display: flex;*/
 }
 
 .title-container {
@@ -9,14 +10,18 @@ body {
     /*background-color: lightblue;*/
     font-size: 18px;
     text-align: left;
-    padding: 0 20px;
+    padding: 20px 30px;
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 
     border-bottom: lightgrey 1px solid;
     box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+
+    /*become fixed to the top*/
+    /*position: fixed;*/
+    /*top: 0;*/
 }
 
 .right-header {

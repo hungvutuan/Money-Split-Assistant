@@ -4,7 +4,7 @@ const Footer = () => {
 
   return (
     <div className={'footer-container'}>
-      <a>@ created by Hugh Wu. Version 0.1. All rights reserved.</a>
+      <a className={'footer-text'}> v0.1 created by @ Hugh Wu. All rights reserved.</a>
     </div>
   )
 }

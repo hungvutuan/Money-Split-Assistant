@@ -6,12 +6,12 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Title/>
+    <div className={"App"}>
+      <Title className={"Title"}/>
 
-      <Body/>
+      <Body className={"Body"}/>
 
-      <Footer/>
+      <Footer className={"Footer"}/>
 
       {/*<header className="App-header">*/}
       {/*  <img src={logo} className="App-logo" alt="logo" />*/}

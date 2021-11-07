@@ -15,13 +15,13 @@ const Title = () => {
 //     if (window.pageYOffset > sticky) {
 //       header.classList.add("sticky");
 //     } else {
-//       header.classList.remove("sticky");
-//     }
+//       headevb r.classList.remove("sticky");
+//     }.,///
 //   }
 
   return (
     <div className={'title-container'} id={'header-container'}>
-      <h1>Money Split Assistant v0.1</h1>
+      <h1>Money Split Assistant</h1>
       <h3 className={'right-header'}>by VTH</h3>
     </div>
   )

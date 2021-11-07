@@ -1,10 +1,24 @@
 import './styles.css'
+import {useState} from "react";
 
 const Body = () => {
+  const [count, setCount] = useState(1)
 
   return (
     <div className={'body-container'}>
-      <button className={'generic-btn'}>Check</button>
+
+      <div className={'inside-frame-container'}>
+        <button
+          className={'generic-btn'}
+          onClick={() => {
+            console.log('Pressed', count, 'times')
+            setCount(count + 1)
+          }}
+        >
+          Count
+        </button>
+
+      </div>
     </div>
   )
 }

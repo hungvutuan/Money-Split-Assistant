@@ -1,8 +1,36 @@
+body {
+    /*flex: 8;*/
+}
+
 .body-container {
     /*background-color: lightblue;*/
-    margin: 25px 100px;
-    min-height: 400px;
 
     /*display: flex;*/
     /*justify-content: flex-start;*/
+
+    background-image: url('../../resources/images/background-triangle-polygon.png');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.inside-frame-container {
+    margin: 0 200px;
+    padding: 20px 0;
+
+    /*border*/
+    border-style:solid;
+    border-width: medium;
+    border-color: black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+
+
+    background-color: white;
+    border-radius: 10px;
+
+    min-height: 700px;
 }

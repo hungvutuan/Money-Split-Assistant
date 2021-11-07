@@ -1,12 +1,21 @@
+body {
+    /*flex: 1;*/
+}
+
 .footer-container {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-    background-color: lightblue;
+    background-color: black;
     min-height: 50px;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    text-align: center;
+}
+
+.footer-text {
+    color: ghostwhite;
 }
 
